@@ -1,0 +1,63 @@
+html,
+body,
+.container {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background: steelblue;
+      margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.container {
+  background: gray;
+  margin-bottom: 2em;
+}
+form{
+	width: 350px;
+	height: 650px;
+	background: #6cb8a6;
+	padding: 20px 15px 15px 15px
+	-webkit-box-shadow:0 2px 5px 2px rgba(0,0,0,6);
+	
+}
+input[type="text"] {
+    font-family: 'Sedgwick Ave Display', cursive;
+    height:50px;
+    width:300px;
+    border-radius: 50px;
+    margin:0.4vmin 0;
+    font-size:8vmin;
+    vertical-align:right;
+    box-sizing: border-box;
+    text-align: right;
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,6);
+}
+input[type="button"] {
+    height:80px;
+    width:80px;
+    border-radius: 200px;
+    margin-bottom:10px;
+    font-size:5vmin;
+    vertical-align:center;
+    box-sizing: border-box;
+    color: #152f29;
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-align:  center;
+}
+.about{
+	font-family: 'Sedgwick Ave Display', cursive;
+	color:  #152f29;
+	box-sizing: border-box;
+	box-shadow: 0 2px 5px 2px rgba(0,0,0,6);
+	text-decoration:none
+        font-size: 5 vmin;
+}
+ form {
+    width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+ display: inline-block;
+    }

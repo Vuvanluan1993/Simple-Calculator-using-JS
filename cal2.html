@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css2.css" />
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed|Sedgwick+Ave+Display" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Sedgwick+Ave+Display" rel="stylesheet"> 
+    </head>
+    <body  style="background-color: #6cb8a6">
+
+ <script type="text/javascript" src="js.js"></script> 
+ <form action="" name="calculator">
+ <pre>
+ 
+      <center> <input type="text" name="screen" allign="right" disabled=""></pre><hr class="hr"></center>
+ <center><input type="button" value="&radic;" onclick="calculator.screen.value=Math.sqrt(calculator.screen.value);">
+ <input type="button" value="fact" onclick="fact()">
+  <input type="button" value="CE" onclick="calculator.screen.value=' '">
+   <input type="button" value="C" onclick="calculator.screen.value=' '">
+    <input type="button" value="&larr;" onclick="slicel()"> <br>
+    <input type="button" value="(" onclick="calculator.screen.value+='('">
+     <input type="button" value=")" onclick="calculator.screen.value+=')'">
+      <input type="button" value=" x&sup2;" onClick="calculator.screen.value=Math.pow(calculator.screen.value,2)">
+       <input type="button" value="ln" onClick="calculator.screen.value=Math.log1p(calculator.screen.value)">
+       <input type="button" value="ABS" onclick="calculator.screen.value=Math.abs(calculator.screen.value)"><br>
+    <input type="button" value="SIN" onclick="sin()">
+     <input type="button" value="COS" onclick="cos()">
+      <input type="button" value="TAN" onclick="tan()">
+      <input type="button" value="PI" onclick="calculator.screen.value= Math.PI">
+      <input type="button" value="LOG" onclick="calculator.screen.value=Math.log(calculator.screen.value)">
+       <br>
+       <input type="button" value="7" onClick="calculator.screen.value=calculator.screen.value +'7'">
+     <input type="button" value="8" onClick="calculator.screen.value=calculator.screen.value +'8'">
+      <input type="button" value="9" onClick="calculator.screen.value=calculator.screen.value +'9'">
+      <input type="button" value="+" onClick="calculator.screen.value=calculator.screen.value +'+'">
+      <input type="button" value="-" onClick="calculator.screen.value=calculator.screen.value +'-'">
+       <br>
+
+        <input type="button" value="4" onClick="calculator.screen.value=calculator.screen.value +'4'">
+     <input type="button" value="5" onClick="calculator.screen.value=calculator.screen.value +'5'">
+      <input type="button" value="6" onClick="calculator.screen.value=calculator.screen.value +'6'">
+      <input type="button" value="*" onClick="calculator.screen.value=calculator.screen.value +'*'">
+
+       <input type="button" value="/" onClick="calculator.screen.value=calculator.screen.value +'/'"><br>
+
+        <input type="button" value="1" onClick="calculator.screen.value=calculator.screen.value +'1'">
+     <input type="button" value="2" onClick="calculator.screen.value=calculator.screen.value +'2'">
+      <input type="button" value="3" onClick="calculator.screen.value=calculator.screen.value +'3'">
+      <input type="button" value="0" onClick="calculator.screen.value=calculator.screen.value +'0'">
+      <input type="button" value="." onClick="calculator.screen.value=calculator.screen.value +'.'">
+       <br>
+      <input type="button" value="=" onclick="result()" >
+       <br>
+       <pre><a href="index.html" class="about">GO FOR NORMAL</a> <a href="about.html" class="about">ABOUT</a></pre>
+       </center>
+
+</form>
+</body>
+</html>
